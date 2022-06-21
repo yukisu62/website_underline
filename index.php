@@ -475,7 +475,7 @@
 		let hamberger = new Vue({
 			el: '#hamApp',
 			data: {
-				open: false
+				hbg_active: false
 			}
 		})
 	</script>
