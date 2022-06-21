@@ -1,0 +1,178 @@
+.fadeIn {
+	opacity: 0;
+	transition: .8s;
+	-webkit-transition: .8s;
+}
+.fadeIn.is-show {
+	opacity: 1;
+}
+.fadeIn_up {
+	opacity: 0;
+	transform: translate(0, 10px);
+	-webkit-transform: translate(0, 10px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+}
+.fadeIn_up.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+}
+.fadeIn_down {
+	opacity: 0;
+	transform: translate(0, -10px);
+	-webkit-transform: translate(0, -10px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+}
+.fadeIn_down.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+}
+.fadeIn_right {
+	opacity: 0;
+	transform: translate(10px, 0px);
+	-webkit-transform: translate(10px, 0px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+}
+.fadeIn_right.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+}
+.fadeIn_left {
+	opacity: 0;
+	transform: translate(-10px, 0px);
+	-webkit-transform: translate(-10px, 0px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+}
+.fadeIn_left.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+}
+
+/* ナビフェード */
+.fadeIn_left_nav {
+	opacity: 0;
+	transform: translate(-10px, 0px);
+	-webkit-transform: translate(-10px, 0px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+	transition-delay: 0.8s;
+	-webkit-transition-delay: 0.8s;
+}
+.fadeIn_left_nav.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+}
+
+
+/* 特殊アニメーション */
+/* .main-visual {
+	opacity: 0;
+	transform: translate(0, 10px);
+	-webkit-transform: translate(0, 10px);
+	transition: 1.4s;
+	-webkit-transition: 1.4s;
+}
+.main-visual.is-show {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	opacity: 1;
+} */
+
+
+.main-visual_copy {
+	transform: translate(0px, 20px);
+	-webkit-transform: translate(0px, 20px);
+	transition: 2.0s;
+	-webkit-transition: 2.0s;
+	opacity: 0;
+}
+.main-visual_copy.is-show {
+	transform: translate(0px, 0px);
+	-webkit-transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+
+.ani_delay:nth-of-type(2) {
+	transition-delay: .2s;
+	-webkit-transition-delay: .2s;
+}
+.ani_delay:nth-of-type(3) {
+	transition-delay: .4s;
+	-webkit-transition-delay: .4s;
+}
+.ani_delay:nth-of-type(4) {
+	transition-delay: .6s;
+	-webkit-transition-delay: .6s;
+}
+.ani_delay:nth-of-type(5) {
+	transition-delay: .8s;
+	-webkit-transition-delay: .8s;
+}
+.ani_delay:nth-of-type(6) {
+	transition-delay: 1.0s;
+	-webkit-transition-delay: 1.0s;
+}
+.ani_delay:nth-of-type(7) {
+	transition-delay: 1.2s;
+	-webkit-transition-delay: 1.2s;
+}
+.ani_delay:nth-of-type(8) {
+	transition-delay: 1.4s;
+	-webkit-transition-delay: 1.4s;
+}
+
+/* ナビフェード */
+.ani_delay_nav:nth-of-type(2) {
+	transition-delay: 0.9s;
+	-webkit-transition-delay: 0.9s;
+}
+.ani_delay_nav:nth-of-type(3) {
+	transition-delay: 1.0s;
+	-webkit-transition-delay: 1.0s;
+}
+.ani_delay_nav:nth-of-type(4) {
+	transition-delay: 1.1s;
+	-webkit-transition-delay: 1.1s;
+}
+.ani_delay_nav:nth-of-type(5) {
+	transition-delay: 1.2s;
+	-webkit-transition-delay: 1.2s;
+}
+.ani_delay_nav:nth-of-type(6) {
+	transition-delay: 1.3s;
+	-webkit-transition-delay: 1.3s;
+}
+
+
+
+
+/* //特殊アニメーション */
+
+
+/* PC ================================================== */
+@media all and (min-width:960px){
+
+
+
+}
+
+/* Tablet ================================================== */
+@media all and (min-width:560px) and (max-width:959px){
+
+
+}
+
+/* SP ================================================== */
+@media all and (max-width:559px){
+
+
+}
